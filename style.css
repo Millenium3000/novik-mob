@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+    margin: 20px;
+}
+
+
+:root {
+    --primary-text-color: #000000;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #F6F6F6;
+
+}
+
+.main-image {
+    
+}
+
+.header-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container {
+    margin: 10px;
+    width: 375px;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+
+.header-list {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: Gilroy-Bold;
+    width: 375px;
+    
+}
+
+.about {
+    width: 375px;
+    height: 491px;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Gilroy-Bold;
+    text-align: center;
+
+}
+
+.skills {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: Gilroy-Bold;
+    text-align: center;
+}
+
+
+.skills-title {
+padding-top: 83px;
+text-align: center;
+}
+
+
+.portfolio {
+    text-align: center;
+   
+    list-style: none;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Gilroy-Bold;
+
+}
+
+.portfolio li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.contacts {
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: Gilroy-Bold;
+}
+
+.star {
+    width: 80px;
+    height: 20px;
+    border: none;
+    background-repeat: repeat;
+    padding-bottom: 10px;
+    
+
+}
+
+.contact-list {
+    display: inline-flex;
+    align-items: center;
+   padding-right: 50px;
+   padding-left: 45px;
+   margin-right: auto;
+   margin-left: auto;
+   text-decoration: none;
+    
+
+}
+
+
+.btn {
+    margin-bottom: 60px;
+    background-color: var(--primary-text-color);
+    color: var(--main-bg-color);
+    width: 316px;
+    height: 42px;
+    border-radius: 50px;
+
+}
+
+
+
+.contact-items {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  padding: 30px;
+  text-decoration: none;
+  list-style: none;
+  
+
+}
+
+.con-text {
+    margin-bottom: 39px;
+    margin-bottom: 92px;
+}
+
+.con-title {
+    margin-top: 82px;
+    
+}
+
+.cont-p {
+    margin-bottom: 90px;
+}
+
+.about-title {
+    margin-bottom: 50px;
+}
