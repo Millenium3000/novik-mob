@@ -166,12 +166,11 @@ text-align: center;
 
 .menu-btn{
     display: flex;
-    
+    position: fixed;
     align-items: center;
     position: absolute;
-    top: 10;
-    right: 620px;
-    bottom: 890px;
+    top: 60px;
+    left: 750px;
     width: 26px;
     height: 26px;
     cursor: pointer;
