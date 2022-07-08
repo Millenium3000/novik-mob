@@ -120,7 +120,7 @@ text-align: center;
 }
 
 
-.btn {
+.button {
     margin-bottom: 60px;
     background-color: var(--primary-text-color);
     color: var(--main-bg-color);
