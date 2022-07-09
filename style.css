@@ -20,7 +20,14 @@ p {
     
 } */
 
+/* .header {
+  margin-bottom: 30px;
+} */
+
+
 .header-title {
+  
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,18 +47,21 @@ p {
 
 
 .header-list {
+  margin-top: 10px;
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
     font-family: Gilroy-Bold;
-     width: 375px;
+     /* width: 375px; */
      text-decoration: none;
      list-style: none;
+     margin-left: auto;
+     margin-right: auto;
     
 }
 
 .about {
     width: 375px;
-    height: 491px;
+    /* height: 491px; */
     background-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
     font-family: Gilroy-Bold;
@@ -75,7 +85,6 @@ text-align: center;
 
 .portfolio {
     text-align: center;
-   
     list-style: none;
     background-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
@@ -101,7 +110,7 @@ text-align: center;
     width: 80px;
     height: 20px;
     border: none;
-    background-repeat: repeat;
+    
     padding-bottom: 10px;
     
 
@@ -165,10 +174,12 @@ text-align: center;
 /* menu */
 
 .menu-btn{
-    display: flex;
+    display: block;
     position: fixed;
-    align-items: center;
-    position: absolute;
+    justify-items: left;
+    
+    
+    margin-top: 60px;
     top: 60px;
     left: 850px;
     width: 26px;
@@ -251,3 +262,11 @@ text-align: center;
     visibility: visible;
     left: 0;
   }
+.burger-menu {
+  width: 20px;
+  height: 20px;
+}
+
+.container-burger {
+  width: 50px;
+}
